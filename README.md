@@ -26,6 +26,28 @@ sols.m : The function that concatenates the 3 solution structures to generate a 
 
 inp.mat : The data file that holds injected labelled leucine (inl) and glycerol (ing) during the kinetics study. First row is pre-surgery and second row is post surgery.
 
+par_table.mat : Table of estimated parameter values. Columns are as follows;
+
+	name : parameter name
+	
+	lb: lower bound
+	
+	ub: upper bound
+	
+	adj: 1 for estimated parameters, 0 for fixed ones
+	
+	est1: pre-surgery estimate
+	
+	std1: pre-surgery parameter standard deviations
+	
+	r1: ratio of std to estimate (std1/est1)
+	
+	est2: post-surgery estimate
+	
+	std2: post-surgery parameter standard deviations
+	
+	r2: ratio of std to estimate (std2/est2)
+
 mata.mat : Cell structure that holds population averages for biochemical concentration and enrichment data. The first cell is for pre-surgery and the second cell is for post-surgery data. Each cell contains 15 variables and for each variable the first row is measurement time points (hour), second row is population average and the third row is population standard deviation. The variables and their units are as follows;
 
 	vldl1_tg_pool: Plasma VLDL1 TG concentration (mg/L)
