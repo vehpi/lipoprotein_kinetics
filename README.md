@@ -1,10 +1,15 @@
 # lipoprotein_kinetics
 
 The computational model for hepatic lipoprotein kinetics.
+
 The MATLAB codes and data files published in this repository are intended to accompany the paper submitted to the Journal of Clinical Investigations:Insights.
+
 The computational model is intended to analyze stable isotopic enrichment and biochemical data collected from bariatric surgery patients.
+
 Provided codes and data files are created for population average data.
+
 Each script is explained in detail with given inline remarks. 
+
 The readers and users should refer to the published manuscript and accompanying appendix.
 
 
