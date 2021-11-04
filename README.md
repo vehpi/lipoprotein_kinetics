@@ -24,6 +24,8 @@ and outputs 3 MATLAB solution structures.
 
 sols.m : The function that concatenates the 3 solution structures to generate a continuous solution.
 
+fig_pl.m : The function that creates enrichment data and plasma concentration figures.
+
 inp.mat : The data file that holds injected labelled leucine (inl) and glycerol (ing) during the kinetics study. First row is pre-surgery and second row is post surgery.
 
 par_table.mat : Table of estimated parameter values. Columns are as follows;
