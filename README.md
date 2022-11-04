@@ -1,7 +1,8 @@
 # lipoprotein_kinetics
 
-The computational model for hepatic lipoprotein kinetics.
-The MATLAB codes and data files published in this repository are supplements of the manuscript submitted to the Journal of Clinical Investigations:Insight.
+The computational model for postprandial hepatic lipoprotein kinetics.
+The MATLAB codes and data files published in this repository are supplements of the manuscript submitted to the Journal of Clinical Investigations:Insight with the title 'Bariatric surgery improves postprandial VLDL1 and VLDL2 apoB and TG metabolism and restores insulin mediated regulation of hepatic VLDL1-apoB and TG production.'.
+
 The computational model is developed to analyze stable isotopic enrichment and biochemical data collected from bariatric surgery patients.
 Provided codes and data files are created for population average data.
 Each script is explained in detail with given inline remarks. 
