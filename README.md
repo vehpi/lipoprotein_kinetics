@@ -49,7 +49,7 @@ par_table.mat : Table of estimated parameter values. Columns are as follows;
 	
 	r2: ratio of std to estimate (std2/est2)
 
-mata.mat : Cell structure that holds population averages for biochemical concentration and enrichment data. The first cell is for pre-surgery and the second cell is for post-surgery data. Each cell contains 15 variables and for each variable the first row is measurement time points (hour), second row is population average and the third row is population standard deviation. The variables and their units are as follows;
+mdata.mat : Cell structure that holds population averages for biochemical concentration and enrichment data. The first cell is for pre-surgery and the second cell is for post-surgery data. Each cell contains 15 variables and for each variable the first row is measurement time points (hour), second row is population average and the third row is population standard deviation. The variables and their units are as follows;
 
 	vldl1_tg_pool: Plasma VLDL1 TG concentration (mg/L)
 	
