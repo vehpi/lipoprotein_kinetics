@@ -49,7 +49,7 @@ par_table.mat : Table of estimated parameter values. Columns are as follows;
 	
 	r2: ratio of std to estimate (std2/est2)
 
-mdata.mat : Cell structure that holds population averages for biochemical concentration and enrichment data. The first cell is for pre-surgery and the second cell is for post-surgery data. Each cell contains 15 variables and for each variable the first row is measurement time points (hour), second row is population average and the third row is population standard deviation. The variables and their units are as follows;
+mdata.mat : Cell structure that holds population averages for biochemical concentration and enrichment data. The first cell is for pre-surgery and the second cell is for post-surgery data. Each cell contains 15 variables and for each variable the first row is measurement time points (hour), second row is population average and the third row is population standard deviation. pre_surgery.xlsx and post_surgery.xlsx files contain the pre-surgery and post-surgery data in xlsx file format. The variables and their units are as follows;
 
 	vldl1_tg_pool: Plasma VLDL1 TG concentration (mg/L)
 	
@@ -71,13 +71,13 @@ mdata.mat : Cell structure that holds population averages for biochemical concen
 	
 	pl_leu_enr: Plasma leucine enrichment
 	
-	PL_TG : Total plasma TG concentration (mg/L)
+	PL_TG: Total plasma TG concentration (mg/L)
 	
-	CM_TG : Plasma chylomicron TG concentration (mg/L)
+	CM_TG: Plasma chylomicron TG concentration (mg/L)
 	
-	insulin : Plasma insulin concentration (pool/L)
+	insulin: Plasma insulin concentration (pool/L)
 	
-	glucose : Plasma glucose concentration (mmol/L)
+	glucose: Plasma glucose concentration (mmol/L)
 	
 	hmusig: Estimated alpha, beta and delta values used in f function in ode.m. These values were estimated from
-	plasma insulin data by fiting a Gaussian curve (See manuscript and its appendix for details).
+	plasma insulin data by fitting a Gaussian curve (See manuscript and its appendix for details).
